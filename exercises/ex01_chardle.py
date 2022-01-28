@@ -17,22 +17,21 @@ print("Searching for " + single_character + " in " + five_character_word)
 
 no_matching_characters: int = 0
 
-
 if five_character_word[0] == single_character:
     print(single_character + " found at index 0")
-    no_matching_characters: int = no_matching_characters + 1
+    no_matching_characters = no_matching_characters + 1
 if five_character_word[1] == single_character:
     print(single_character + " found at index 1")
-    No_Matching_Characters: int = no_matching_characters + 1
+    no_matching_characters = no_matching_characters + 1
 if five_character_word[2] == single_character:
     print(single_character + " found at index 2")
-    No_Matching_Characters: int = no_matching_characters + 1
+    no_matching_characters = no_matching_characters + 1
 if five_character_word[3] == single_character:
     print(single_character + " found at index 3")
-    No_Matching_Characters: int = no_matching_characters + 1
+    no_matching_characters = no_matching_characters + 1
 if five_character_word[4] == single_character:
     print(single_character + " found at index 4")
-    No_Matching_Characters: int = no_matching_characters + 1
+    no_matching_characters = no_matching_characters + 1
 
 if no_matching_characters == 1:
     print("1 instance of " + single_character + " found in " + five_character_word)
